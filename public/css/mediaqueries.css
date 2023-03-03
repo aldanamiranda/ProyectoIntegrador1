@@ -13,6 +13,7 @@
         border: 2px solid white;
         border-radius: 5px;
         margin: 5px;
+        
 
     }
 
@@ -122,44 +123,56 @@
 
 @media(max-width:480px) {
 
-    .header{
-        display: flex;
-        flex-wrap: wrap;
-    }
+  
 .logo{
-    width: 20px;
-    display: block;
-    display: flex;
+  
+    width: 100%;
+    height: 70px;
+    margin-top: 30px;
+    margin-left: 7px;
+    margin-right: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+   
 }
     .topnav {
         flex-wrap: wrap;
         display: flex;
         margin-top: 70px;
+    
     }
 
 
     .menu-label {
         order: 0;
+       
 
     }
 
     .menu {
-        margin-top: 34em;
-        width: 90.2%;
+        margin-top: 37.5em;
+        width: 87%;
         
     }
 
     .menu-icon {
-        color: aquamarine;
-        background-color: aqua;
-        order: 2;
+        display: inline;
         display: flex;
         width: 45px;
         height: 45px;
-        margin: 5px;
-        padding: 5px;
+        margin: 15px;
+        padding: 7px;
     }
 
+    .user-icon{
+        display: inline;
+        display: flex;
+    }
+
+    .buttonRegister{
+        margin-top: 500px;
+    }
 
     .title {
         font-size: 20px;
